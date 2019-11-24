@@ -1,0 +1,28 @@
+name: hacker_news
+description: Hacker News PWA but with Flutter.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  bloc: ^2.0.0
+  chopper: ^3.0.1
+  cupertino_icons: ^0.1.2
+  flutter_bloc: ^2.0.1
+  get_it: ^3.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  build_runner:
+  chopper_generator: ^3.0.2
+
+flutter:
+
+  uses-material-design: true

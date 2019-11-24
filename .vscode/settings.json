@@ -1,0 +1,14 @@
+{
+    "files.exclude": {
+        ".dart_tool": true,
+        ".idea": true,
+        ".metadata": true,
+        ".packages": true,
+        ".vscode": true,
+        "**/*.chopper.dart": true,
+        "android": true,
+        "build": true,
+        "ios": true,
+        "pubspec.lock": true
+    }
+}
