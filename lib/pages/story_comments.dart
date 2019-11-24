@@ -29,6 +29,10 @@ class StoryComments extends StatelessWidget {
           content = Center(
             child: CupertinoActivityIndicator(),
           );
+        } else if (state.comments.length == 0) {
+          content = Center(
+            child: Text('No one seems to have commented anything here...'),
+          );
         } else {
           content = SafeArea(
             child: ListView.builder(

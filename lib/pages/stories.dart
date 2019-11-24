@@ -44,6 +44,12 @@ class Stories<T extends StoriesBloc> extends StatelessWidget {
                   );
                 }
 
+                if (state.stories.length == 0) {
+                  return SliverFillRemaining(
+                    child: Text('Nothing to show here...'),
+                  );
+                }
+
                 return SliverList(
                   delegate: SliverChildBuilderDelegate((ctx, idx) {
                     if (idx < state.stories.length) {
